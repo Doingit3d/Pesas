@@ -3,33 +3,30 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_tiempo_real"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:title="Gráficos tiempo real" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_consumo"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Gráficos de consumo" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_peso"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Gráficos de peso" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_report"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Reportes" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Ajustes">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_config"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Configuración" />
+
         </menu>
     </item>
 
